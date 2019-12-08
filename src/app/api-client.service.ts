@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, ObservableInput, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-import { environment } from '../../../environments/environment';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +22,7 @@ export class ApiClientService {
     return options;
   }
 
-  constructor(private http: HttpClient, private dialog: MatDialog) {}
+  constructor(private http: HttpClient) {}
 
   /**
    * 作成APIを呼び出す
