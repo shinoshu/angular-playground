@@ -1,82 +1,84 @@
-[
-  {
-    "id": 1,
-    "first_name": "Wanda",
-    "last_name": "Blood",
-    "email": "wblood0@skyrock.com",
-    "gender": "Female",
-    "ip_address": "227.145.89.220"
-  },
-  {
-    "id": 2,
-    "first_name": "Joycelin",
-    "last_name": "Arne",
-    "email": "jarne1@cdc.gov",
-    "gender": "Female",
-    "ip_address": "104.228.159.187"
-  },
-  {
-    "id": 3,
-    "first_name": "Georgie",
-    "last_name": "Karslake",
-    "email": "gkarslake2@multiply.com",
-    "gender": "Female",
-    "ip_address": "191.34.62.212"
-  },
-  {
-    "id": 4,
-    "first_name": "Arvie",
-    "last_name": "Setterthwait",
-    "email": "asetterthwait3@mediafire.com",
-    "gender": "Male",
-    "ip_address": "213.5.57.54"
-  },
-  {
-    "id": 5,
-    "first_name": "Chen",
-    "last_name": "Patters",
-    "email": "cpatters4@google.es",
-    "gender": "Male",
-    "ip_address": "171.189.157.38"
-  },
-  {
-    "id": 6,
-    "first_name": "Ingaberg",
-    "last_name": "Goodluck",
-    "email": "igoodluck5@mapquest.com",
-    "gender": "Female",
-    "ip_address": "159.170.240.244"
-  },
-  {
-    "id": 7,
-    "first_name": "Harper",
-    "last_name": "Pumfrey",
-    "email": "hpumfrey6@samsung.com",
-    "gender": "Male",
-    "ip_address": "180.144.204.208"
-  },
-  {
-    "id": 8,
-    "first_name": "Kin",
-    "last_name": "Galfour",
-    "email": "kgalfour7@bing.com",
-    "gender": "Male",
-    "ip_address": "217.1.37.107"
-  },
-  {
-    "id": 9,
-    "first_name": "Phillipe",
-    "last_name": "Mainston",
-    "email": "pmainston8@photobucket.com",
-    "gender": "Male",
-    "ip_address": "148.79.49.37"
-  },
-  {
-    "id": 10,
-    "first_name": "Carson",
-    "last_name": "Muro",
-    "email": "cmuro9@mysql.com",
-    "gender": "Male",
-    "ip_address": "3.197.103.252"
-  }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Wanda",
+      "last_name": "Blood",
+      "email": "wblood0@skyrock.com",
+      "gender": "Female",
+      "ip_address": "227.145.89.220"
+    },
+    {
+      "id": 2,
+      "first_name": "Joycelin",
+      "last_name": "Arne",
+      "email": "jarne1@cdc.gov",
+      "gender": "Female",
+      "ip_address": "104.228.159.187"
+    },
+    {
+      "id": 3,
+      "first_name": "Georgie",
+      "last_name": "Karslake",
+      "email": "gkarslake2@multiply.com",
+      "gender": "Female",
+      "ip_address": "191.34.62.212"
+    },
+    {
+      "id": 4,
+      "first_name": "Arvie",
+      "last_name": "Setterthwait",
+      "email": "asetterthwait3@mediafire.com",
+      "gender": "Male",
+      "ip_address": "213.5.57.54"
+    },
+    {
+      "id": 5,
+      "first_name": "Chen",
+      "last_name": "Patters",
+      "email": "cpatters4@google.es",
+      "gender": "Male",
+      "ip_address": "171.189.157.38"
+    },
+    {
+      "id": 6,
+      "first_name": "Ingaberg",
+      "last_name": "Goodluck",
+      "email": "igoodluck5@mapquest.com",
+      "gender": "Female",
+      "ip_address": "159.170.240.244"
+    },
+    {
+      "id": 7,
+      "first_name": "Harper",
+      "last_name": "Pumfrey",
+      "email": "hpumfrey6@samsung.com",
+      "gender": "Male",
+      "ip_address": "180.144.204.208"
+    },
+    {
+      "id": 8,
+      "first_name": "Kin",
+      "last_name": "Galfour",
+      "email": "kgalfour7@bing.com",
+      "gender": "Male",
+      "ip_address": "217.1.37.107"
+    },
+    {
+      "id": 9,
+      "first_name": "Phillipe",
+      "last_name": "Mainston",
+      "email": "pmainston8@photobucket.com",
+      "gender": "Male",
+      "ip_address": "148.79.49.37"
+    },
+    {
+      "id": 10,
+      "first_name": "Carson",
+      "last_name": "Muro",
+      "email": "cmuro9@mysql.com",
+      "gender": "Male",
+      "ip_address": "3.197.103.252"
+    }
+  ]
+}
