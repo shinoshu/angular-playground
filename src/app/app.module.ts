@@ -11,6 +11,7 @@ import { NavComponent } from './nav/nav.component';
 import { TableComponent } from './table/table.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CardComponent } from './card/card.component';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardComponent } from './card/card.component';
     NavComponent,
     TableComponent,
     DashboardComponent,
-    CardComponent
+    CardComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
