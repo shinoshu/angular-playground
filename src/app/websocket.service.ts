@@ -5,6 +5,7 @@ import { webSocket } from 'rxjs/webSocket';
   providedIn: 'root'
 })
 export class WebsocketService {
+  // https://github.com/websockets/ws/tree/master/examples/server-stats
   subject = webSocket('ws://localhost:8081');
 
   constructor() {
