@@ -23,6 +23,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@angular/youtube-player": "^8.2.3",
     "@types/log4js": "^2.3.5",
     "hammerjs": "^2.0.8",
     "log4js": "^6.1.0",
