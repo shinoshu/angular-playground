@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { MaterialModule } from './material/material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +27,7 @@ import { WorkComponent } from './work/work.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    YouTubePlayerModule,
     MaterialModule,
     AppRoutingModule,
   ],
