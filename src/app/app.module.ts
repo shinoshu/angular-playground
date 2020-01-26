@@ -13,6 +13,7 @@ import { TableComponent } from './table/table.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CardComponent } from './card/card.component';
 import { WorkComponent } from './work/work.component';
+import { PixiComponent } from './pixi/pixi.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WorkComponent } from './work/work.component';
     TableComponent,
     DashboardComponent,
     CardComponent,
-    WorkComponent
+    WorkComponent,
+    PixiComponent
   ],
   imports: [
     BrowserModule,
