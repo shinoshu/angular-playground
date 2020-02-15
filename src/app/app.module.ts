@@ -21,6 +21,8 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './app.effects';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
+import { EntityDataModule } from '@ngrx/data';
+import { entityConfig } from './entity-metadata';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,7 @@ import { StoreRouterConnectingModule } from '@ngrx/router-store';
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     EffectsModule.forRoot([AppEffects]),
     StoreRouterConnectingModule.forRoot(),
+    EntityDataModule.forRoot(entityConfig),
   ],
   providers: [],
   bootstrap: [AppComponent]
