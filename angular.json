@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "angular-playground"
+  "defaultProject": "angular-playground",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
