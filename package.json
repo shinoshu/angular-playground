@@ -25,6 +25,7 @@
     "@angular/router": "~8.2.14",
     "@angular/youtube-player": "^8.2.3",
     "@ngrx/effects": "^8.6.0",
+    "@ngrx/entity": "^8.6.0",
     "@ngrx/router-store": "^8.6.0",
     "@ngrx/store": "^8.6.0",
     "@ngrx/store-devtools": "^8.6.0",
